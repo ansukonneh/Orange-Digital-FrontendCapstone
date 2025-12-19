@@ -74,7 +74,7 @@
         <Loader />
       </div>
       <Error v-else-if="trendingError" :message="trendingError" />
-      <MovieCarousel v-else-if="trendingMovies.length > 0" title="Trending Now" :movies="trendingMovies" />
+      <MovieCarousel v-else-if="trendingMovies.length > 0" title="Trending Now on VAK-net" :movies="trendingMovies" />
 
       <!-- Popular Movies -->
       <div v-if="popularLoading">
@@ -88,14 +88,14 @@
         <Loader />
       </div>
       <Error v-else-if="topRatedError" :message="topRatedError" />
-      <MovieCarousel v-else-if="topRatedMovies.length > 0" title="Top Rated" :movies="topRatedMovies" />
+      <MovieCarousel v-else-if="topRatedMovies.length > 0" title="Top Rated on VAK-net" :movies="topRatedMovies" />
 
       <!-- Now Playing -->
       <div v-if="nowPlayingLoading">
         <Loader />
       </div>
       <Error v-else-if="nowPlayingError" :message="nowPlayingError" />
-      <MovieCarousel v-else-if="nowPlayingMovies.length > 0" title="Now Playing" :movies="nowPlayingMovies" />
+      <MovieCarousel v-else-if="nowPlayingMovies.length > 0" title="Now Playing on VAK-net" :movies="nowPlayingMovies" />
     </div>
   </div>
 </template>
