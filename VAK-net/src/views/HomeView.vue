@@ -81,7 +81,7 @@
         <Loader />
       </div>
       <Error v-else-if="popularError" :message="popularError" />
-      <MovieCarousel v-else-if="popularMovies.length > 0" title="Popular on MovieHub" :movies="popularMovies" />
+      <MovieCarousel v-else-if="popularMovies.length > 0" title="Popular on VAK-NET" :movies="popularMovies" />
 
       <!-- Top Rated Movies -->
       <div v-if="topRatedLoading">
