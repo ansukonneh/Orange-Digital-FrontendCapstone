@@ -4,11 +4,8 @@
       <div class="flex items-center justify-between">
         <!-- Logo/Brand -->
         <router-link to="/" class="flex items-center gap-2 z-10" @click="mobileMenuOpen = false">
-          <span class="text-2xl md:text-3xl font-bold text-red-600 hover:text-red-500 transition-colors duration-200">
-            MovieHub
-          </span>
+          <span class="text-2xl md:text-3xl font-bold text-red-600 hover:text-red-500 transition-colors duration-200"> VAK-net </span>
         </router-link>
-
         <!-- Right Side (Search Icon + Hamburger) - Always Visible -->
         <div class="flex items-center gap-4">
           <!-- Search Icon -->
@@ -26,7 +23,7 @@
           <!-- Hamburger Menu Button -->
           <button
             @click="mobileMenuOpen = !mobileMenuOpen"
-            class="text-white hover:text-gray-300 transition-colors"
+            class=" text-white hover:text-gray-300 transition-colors"
             aria-label="Toggle menu"
             :aria-expanded="mobileMenuOpen"
           >
@@ -197,4 +194,5 @@ function handleLogout() {
   transform: translateY(-10px);
 }
 </style>
+
 

@@ -2,15 +2,12 @@
   <footer class="bg-black border-t border-gray-900 mt-20">
     <div class="container mx-auto px-4 md:px-6 lg:px-8 py-8">
       <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
-        <!-- About Section -->
         <div>
-          <h3 class="text-xl font-bold text-white mb-4">MovieHub</h3>
+          <h3 class="text-xl font-bold text-white mb-4">Vak-net</h3>
           <p class="text-gray-400 text-sm">
-            Your ultimate destination for discovering and exploring movies. Built with Vue 3 and powered by TMDB.
+            Your ultimate destination for discovering and exploring movies. Built by Ansu, Varro and Kim 
           </p>
         </div>
-
-        <!-- Links Section -->
         <div>
           <h4 class="text-lg font-semibold text-white mb-4">Quick Links</h4>
           <ul class="space-y-2">
@@ -31,8 +28,6 @@
             </li>
           </ul>
         </div>
-
-        <!-- Attribution Section -->
         <div>
           <h4 class="text-lg font-semibold text-white mb-4">Powered By</h4>
           <a
@@ -49,11 +44,9 @@
           </a>
         </div>
       </div>
-
-      <!-- Copyright -->
       <div class="border-t border-gray-900 pt-6 text-center">
         <p class="text-gray-400 text-sm">
-          &copy; {{ currentYear }} VAK-Net. All rights reserved. This product uses the TMDB API but is not endorsed or certified by TMDB.
+          &copy; {{ currentYear }} VAK-Net. All rights reserved.
         </p>
       </div>
     </div>
@@ -65,4 +58,5 @@ import { computed } from 'vue'
 
 const currentYear = computed(() => new Date().getFullYear())
 </script>
+
 
